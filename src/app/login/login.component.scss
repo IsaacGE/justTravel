@@ -1,0 +1,108 @@
+.form-login,
+.form-register {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background: hsla(171, 87%, 67%, 1);
+    background: linear-gradient(0deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+}
+
+.form-register {
+    margin-bottom: 20px;
+}
+
+.form-login {
+    width: 500px;
+}
+
+.login-box h1,
+.form-register .contenido h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.login-box .form-floating input,
+.form-register .contenido .form-floating input {
+    background-color: rgba(0, 0, 0, 0.247);
+    border: none;
+    color: #fff;
+}
+
+.form-register {
+    width: 700px;
+}
+
+.form-register .contenido .forms-input {
+    text-align: center;
+}
+
+.form-register .contenido .forms-input .form-floating {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+}
+
+.login-box .form-floating input:focus,
+.form-register .contenido .form-floating input:focus {
+    background-color: #0008;
+}
+
+.login-box .form-floating label,
+.form-register .contenido .form-floating label {
+    color: #fff;
+}
+
+.login-box .form-floating .form-check input,
+label {
+    text-align: left;
+    cursor: pointer;
+}
+
+.login-box .options,
+.form-register .contenido .options {
+    text-align: center;
+}
+
+.login-box .options .btn,
+.form-register .contenido .options .btn {
+    margin-bottom: 10px;
+}
+
+.login-box .options .btn-primary,
+.form-register .contenido .options .btn-primary {
+    width: 50%;
+}
+
+.login-box .options p .change,
+.form-register .contenido .options .change {
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+.login-box .options p .change:hover,
+.form-register .contenido .options .change:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:570px) {
+    .form-login {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .form-register {
+        width: 100%;
+    }
+    .form-register .contenido .forms-input .form-floating {
+        width: 100%;
+        margin: 5px;
+        margin-left: 0;
+    }
+}

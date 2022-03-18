@@ -1,0 +1,21 @@
+#map {
+    height: 80vh;
+    top: 0;
+    bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.container {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container h4 span {
+    font-weight: bold;
+}
+
+@media screen and (max-width:630px) {
+    .container h4 {
+        font-size: 12pt;
+    }
+}
